@@ -28,3 +28,18 @@
     color:white;
     margin-left: 1.5rem;
 }
+
+.boton--restar{
+    background-color: rgb(255, 187, 0);
+    margin-right: 5px;
+}
+
+.boton--sumar{
+    background-color: rgb(255, 187, 0);
+    margin-left: 2px;
+}
+
+.buy{
+    background-color: orange;
+    margin-left: 2px
+}

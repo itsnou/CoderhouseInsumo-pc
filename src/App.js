@@ -1,6 +1,7 @@
-import NavBar from './components/NavBar';
-import Lista from './container/ItemListContainer';
 import 'bootstrap/dist/css/bootstrap.css';
+import NavBar from './components/container/NavBar/NavBar';
+import Lista from './components/container/ItemList/ItemListContainer';
+import './App.css';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         <NavBar />
       </header>
       <main className="text-center p-3">
-        <Lista greeting='HOLA CODERS'/>
+        <Lista/>
       </main>
     </div>
   );

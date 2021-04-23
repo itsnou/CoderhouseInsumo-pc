@@ -1,6 +1,5 @@
 import React from 'react';
 import './NavBar.css';
-import { MdShoppingCart } from "react-icons/md";
 import Carrito from './CartWidget';
 
 const NavBar = () =>{
@@ -23,7 +22,7 @@ const NavBar = () =>{
                         <a className="nav-link ref-menu" href="#">Nosotros</a>
                     </li>
                 </ul>
-                <button className="btn btn-outline-light my-2 mx-sm-5" type="submit" onClick={Carrito}><MdShoppingCart/></button>
+                <button className="btn btn-outline-light my-2 mx-sm-5" type="submit"><Carrito/></button>
             </div>
         </nav>
     )
